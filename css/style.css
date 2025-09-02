@@ -33,6 +33,7 @@
   /* Height */
   --content-height: 692px;
   --content-height-mobile: 500px;
+  --content-height-multi: 580px;
 }
 html,
 body {
@@ -117,7 +118,7 @@ header {
 .header-button-group {
   display: flex;
   flex-direction: row;
-  gap: var(--space-md)
+  gap: var(--space-md);
 }
 .close-region {
   padding: 0;
@@ -310,6 +311,33 @@ header:has(.nav-item:hover) ~ .overlay {
   opacity: 1;
   transform: translateY(0);
 }
+.multi-product {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: var(--space-md);
+  height: auto;
+  padding: var(--space-md);
+  .section-unit-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    height: var(--content-height-multi);
+    .content-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .text-secondary {
+        font-size: var(--font-xl);
+        text-align: center;
+        max-width: 315px;
+      }
+      .button {
+        font-size: var(--font-sm);
+        padding: var(--space-xs) var(--space-md);
+      }
+    }
+  }
+}
 .section-content {
   width: 100%;
 }
@@ -352,6 +380,26 @@ header:has(.nav-item:hover) ~ .overlay {
   height: 100%;
   padding-bottom: var(--space-3xl);
 }
+.between-content {
+  height: 100%;
+  justify-content: space-between;
+  padding-bottom: var(--space-2xl);
+  .ai-gradient {
+    font-size: var(--font-sm);
+  }
+}
+.ipad-logo {
+  background-size: 144px 33px;
+  height: 33px;
+  width: 144px;
+  background-image: url(/images/promo_logo_ipadair__frwnnsqveeye_large_2x.png);
+}
+.hidden {
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  display: block;
+}
 .image-wrapper {
   position: absolute;
   top: 0;
@@ -375,10 +423,40 @@ header:has(.nav-item:hover) ~ .overlay {
 .iphone-image-unit {
   background-image: url(/images/hero_iphone_family__fuz5j2v5xx6y_largetall_2x.jpg);
 }
+.ipad-image-unit {
+  background-image: url(/images/promo_ipad_air__bfbxzvw65c02_large_2x.jpg);
+}
+.mac-image-unit {
+  background-image: url(/images/promo_macbook_air_avail__e8ksaudoisey_large_2x.jpg);
+}
+.watch-image-unit {
+  background-image: url(/images/promo_apple_watch_series_10_avail_lte__c70y29goir42_large_2x.jpg);
+}
+.airpod-image-unit {
+  background-image: url(/images/promo_airpods_pro_2_avail__vkitqi3okwie_large_2x.jpg);
+}
+.tradein-image-unit {
+  background-image: url(/images/promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
+}
+.card-image-unit {
+  background-image: url(/images/promo_apple_card__5cm7draujpey_large_2x.jpg);
+}
 .event-image-unit {
   background-image: url(/images/hero_apple_event_september__c2amjfe3dcqe_largetall_2x.jpg);
 }
-
+.watch-ultra {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  border-radius: 1rem;
+  /* transform-origin: top left;  */
+}
+.running-watch{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
 /* Responsive */
 @media (max-width: 1439px) and (min-width: 426px) {
   .header-inner {
@@ -401,7 +479,14 @@ header:has(.nav-item:hover) ~ .overlay {
     display: none;
   }
   .header-button-group {
-    gap: var(--space-lg)
+    gap: var(--space-lg);
+  }
+  .multi-product {
+    height: auto;
+    grid-template-columns: repeat(1, 1fr);
+    .section-unit-wrapper {
+      height: var(--content-height-mobile);
+    }
   }
 }
 @media (max-width: 767px) {
@@ -443,6 +528,14 @@ header:has(.nav-item:hover) ~ .overlay {
   .section,
   .section-unit-wrapper {
     height: var(--content-height-mobile);
+  }
+  .multi-product {
+    height: calc(var(--content-height-mobile) * 6);
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    .section-unit-wrapper {
+      height: var(--content-height-mobile);
+    }
   }
   .text-secondary {
     font-size: var(--font-lg);
