@@ -392,7 +392,7 @@ header:has(.nav-item:hover) ~ .overlay {
   background-size: 144px 33px;
   height: 33px;
   width: 144px;
-  background-image: url(/images/promo_logo_ipadair__frwnnsqveeye_large_2x.png);
+  background-image: url(./images/promo_logo_ipadair__frwnnsqveeye_large_2x.png);
 }
 .hidden {
   overflow: hidden;
@@ -421,28 +421,28 @@ header:has(.nav-item:hover) ~ .overlay {
   margin: 0;
 }
 .iphone-image-unit {
-  background-image: url(/images/hero_iphone_family__fuz5j2v5xx6y_largetall_2x.jpg);
+  background-image: url(./images/hero_iphone_family__fuz5j2v5xx6y_largetall_2x.jpg);
 }
 .ipad-image-unit {
-  background-image: url(/images/promo_ipad_air__bfbxzvw65c02_large_2x.jpg);
+  background-image: url(./images/promo_ipad_air__bfbxzvw65c02_large_2x.jpg);
 }
 .mac-image-unit {
-  background-image: url(/images/promo_macbook_air_avail__e8ksaudoisey_large_2x.jpg);
+  background-image: url(./images/promo_macbook_air_avail__e8ksaudoisey_large_2x.jpg);
 }
 .watch-image-unit {
-  background-image: url(/images/promo_apple_watch_series_10_avail_lte__c70y29goir42_large_2x.jpg);
+  background-image: url(./images/promo_apple_watch_series_10_avail_lte__c70y29goir42_large_2x.jpg);
 }
 .airpod-image-unit {
-  background-image: url(/images/promo_airpods_pro_2_avail__vkitqi3okwie_large_2x.jpg);
+  background-image: url(./images/promo_airpods_pro_2_avail__vkitqi3okwie_large_2x.jpg);
 }
 .tradein-image-unit {
-  background-image: url(/images/promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
+  background-image: url(./images/promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
 }
 .card-image-unit {
-  background-image: url(/images/promo_apple_card__5cm7draujpey_large_2x.jpg);
+  background-image: url(./images/promo_apple_card__5cm7draujpey_large_2x.jpg);
 }
 .event-image-unit {
-  background-image: url(/images/hero_apple_event_september__c2amjfe3dcqe_largetall_2x.jpg);
+  background-image: url(./images/hero_apple_event_september__c2amjfe3dcqe_largetall_2x.jpg);
 }
 .watch-ultra {
   width: 100%;
@@ -550,10 +550,10 @@ header:has(.nav-item:hover) ~ .overlay {
     padding-bottom: var(--space-2xl);
   }
   .iphone-image-unit {
-    background-image: url(/images/hero_iphone_family__fuz5j2v5xx6y_small.jpg);
+    background-image: url(./images/hero_iphone_family__fuz5j2v5xx6y_small.jpg);
   }
 
   .event-image-unit {
-    background-image: url(/images/hero_apple_event_september__c2amjfe3dcqe_mediumtall_2x.jpg);
+    background-image: url(./images/hero_apple_event_september__c2amjfe3dcqe_mediumtall_2x.jpg);
   }
 }
