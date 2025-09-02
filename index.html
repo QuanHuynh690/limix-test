@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Landing Demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://www.apple.com/wss/fonts?families=SF+Pro,v3|SF+Pro+Icons,v3"
+      type="text/css"
+      media="all"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="region-bar">
+        <div
+          class="d-flex region-bar-inner justify-content-between align-items-center"
+        >
+          <div class="region-text">
+            Chọn quốc gia hoặc khu vực khác để xem nội dung dành riêng cho vị
+            trí của bạn và mua sắm trực tuyến.
+          </div>
+          <div class="region-select-cont flex-row d-flex">
+            <select class="form-select region-select">
+              <option selected>Việt Nam</option>
+              <option>Quốc gia hoặc khu vực khác</option>
+            </select>
+            <button class="btn btn-dark region-button btn-sm">Tiếp Tục</button>
+            <button class="close-region btn btn-sm border-0 fs-6">✕</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation bar -->
+      <div
+        class="header-inner d-flex justify-content-between align-items-center mx-auto my-0"
+      >
+        <a href="#" class="d-flex">
+          <svg
+            height="44"
+            viewBox="0 0 14 44"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z"
+            ></path>
+          </svg>
+        </a>
+        <nav class="main-nav">
+          <ul>
+            <li class="nav-item">
+              <a href="#">Store</a>
+              <div class="mega-menu">
+                <div class="mega-menu-list">
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop</h4>
+                    <a href="#">Shop the Latest</a>
+                    <a href="#">Mac</a>
+                    <a href="#">iPad</a>
+                    <a href="#">iPhone</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Quick Links</h4>
+                    <a href="#">Find a Store</a>
+                    <a href="#">Order Status</a>
+                    <a href="#">Apple Trade In</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop Special Stores</h4>
+                    <a href="#">Certified Refurbished</a>
+                    <a href="#">Education</a>
+                    <a href="#">Business</a>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="overlay"></div> -->
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Mac</a>
+              <div class="mega-menu">
+                <div class="mega-menu-list">
+                  <div class="column">
+                    <h4 class="sub-menu-header">Explore Mac</h4>
+                    <a href="#">MacBook Air</a>
+                    <a href="#">MacBook Pro</a>
+                    <a href="#">iMac</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Accessories</h4>
+                    <a href="#">Displays</a>
+                    <a href="#">Keyboards</a>
+                    <a href="#">Mice</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Ipad</a>
+              <div class="mega-menu">
+                <div class="mega-menu-list">
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop</h4>
+                    <a href="#">Shop the Latest</a>
+                    <a href="#">Mac</a>
+                    <a href="#">iPad</a>
+                    <a href="#">iPhone</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Quick Links</h4>
+                    <a href="#">Find a Store</a>
+                    <a href="#">Order Status</a>
+                    <a href="#">Apple Trade In</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop Special Stores</h4>
+                    <a href="#">Certified Refurbished</a>
+                    <a href="#">Education</a>
+                    <a href="#">Business</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Iphone</a>
+              <div class="mega-menu">
+                <div class="mega-menu-list">
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop</h4>
+                    <a href="#">Shop the Latest</a>
+                    <a href="#">Mac</a>
+                    <a href="#">iPad</a>
+                    <a href="#">iPhone</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Quick Links</h4>
+                    <a href="#">Find a Store</a>
+                    <a href="#">Order Status</a>
+                    <a href="#">Apple Trade In</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop Special Stores</h4>
+                    <a href="#">Certified Refurbished</a>
+                    <a href="#">Education</a>
+                    <a href="#">Business</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Watch</a>
+              <div class="mega-menu">
+                <div class="mega-menu-list">
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop</h4>
+                    <a href="#">Shop the Latest</a>
+                    <a href="#">Mac</a>
+                    <a href="#">iPad</a>
+                    <a href="#">iPhone</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Quick Links</h4>
+                    <a href="#">Find a Store</a>
+                    <a href="#">Order Status</a>
+                    <a href="#">Apple Trade In</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop Special Stores</h4>
+                    <a href="#">Certified Refurbished</a>
+                    <a href="#">Education</a>
+                    <a href="#">Business</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Vision</a>
+              <div class="mega-menu">
+                <div class="mega-menu-list">
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop</h4>
+                    <a href="#">Shop the Latest</a>
+                    <a href="#">Mac</a>
+                    <a href="#">iPad</a>
+                    <a href="#">iPhone</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Quick Links</h4>
+                    <a href="#">Find a Store</a>
+                    <a href="#">Order Status</a>
+                    <a href="#">Apple Trade In</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop Special Stores</h4>
+                    <a href="#">Certified Refurbished</a>
+                    <a href="#">Education</a>
+                    <a href="#">Business</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">AirPods</a>
+              <div class="mega-menu">
+                <div class="mega-menu-list">
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop</h4>
+                    <a href="#">Shop the Latest</a>
+                    <a href="#">Mac</a>
+                    <a href="#">iPad</a>
+                    <a href="#">iPhone</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Quick Links</h4>
+                    <a href="#">Find a Store</a>
+                    <a href="#">Order Status</a>
+                    <a href="#">Apple Trade In</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop Special Stores</h4>
+                    <a href="#">Certified Refurbished</a>
+                    <a href="#">Education</a>
+                    <a href="#">Business</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">TV & Home</a>
+              <div class="mega-menu">
+                <div class="mega-menu-list">
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop</h4>
+                    <a href="#">Shop the Latest</a>
+                    <a href="#">Mac</a>
+                    <a href="#">iPad</a>
+                    <a href="#">iPhone</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Quick Links</h4>
+                    <a href="#">Find a Store</a>
+                    <a href="#">Order Status</a>
+                    <a href="#">Apple Trade In</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop Special Stores</h4>
+                    <a href="#">Certified Refurbished</a>
+                    <a href="#">Education</a>
+                    <a href="#">Business</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Entertainment</a>
+              <div class="mega-menu">
+                <div class="mega-menu-list">
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop</h4>
+                    <a href="#">Shop the Latest</a>
+                    <a href="#">Mac</a>
+                    <a href="#">iPad</a>
+                    <a href="#">iPhone</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Quick Links</h4>
+                    <a href="#">Find a Store</a>
+                    <a href="#">Order Status</a>
+                    <a href="#">Apple Trade In</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop Special Stores</h4>
+                    <a href="#">Certified Refurbished</a>
+                    <a href="#">Education</a>
+                    <a href="#">Business</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Accessories</a>
+              <div class="mega-menu">
+                <div class="mega-menu-list">
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop</h4>
+                    <a href="#">Shop the Latest</a>
+                    <a href="#">Mac</a>
+                    <a href="#">iPad</a>
+                    <a href="#">iPhone</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Quick Links</h4>
+                    <a href="#">Find a Store</a>
+                    <a href="#">Order Status</a>
+                    <a href="#">Apple Trade In</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop Special Stores</h4>
+                    <a href="#">Certified Refurbished</a>
+                    <a href="#">Education</a>
+                    <a href="#">Business</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Support</a>
+              <div class="mega-menu">
+                <div class="mega-menu-list">
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop</h4>
+                    <a href="#">Shop the Latest</a>
+                    <a href="#">Mac</a>
+                    <a href="#">iPad</a>
+                    <a href="#">iPhone</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Quick Links</h4>
+                    <a href="#">Find a Store</a>
+                    <a href="#">Order Status</a>
+                    <a href="#">Apple Trade In</a>
+                  </div>
+                  <div class="column">
+                    <h4 class="sub-menu-header">Shop Special Stores</h4>
+                    <a href="#">Certified Refurbished</a>
+                    <a href="#">Education</a>
+                    <a href="#">Business</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-button-group">
+          <div class="d-flex search-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15px"
+              height="44px"
+              viewBox="0 0 15 44"
+            >
+              <path
+                d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z"
+              ></path>
+            </svg>
+          </div>
+          <div class="d-flex bag-icon">
+            <svg
+              height="44"
+              viewBox="0 0 14 44"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"
+              ></path>
+            </svg>
+          </div>
+          <div class="d-flex burger-icon">
+            <svg width="18" height="44" viewBox="0 0 18 18">
+              <polyline
+                id="globalnav-menutrigger-bread-bottom"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                points="2 12, 16 12"
+                class="globalnav-menutrigger-bread globalnav-menutrigger-bread-bottom"
+              >
+                <animate
+                  id="globalnav-anim-menutrigger-bread-bottom-open"
+                  attributeName="points"
+                  keyTimes="0;0.5;1"
+                  dur="0.24s"
+                  begin="indefinite"
+                  fill="freeze"
+                  calcMode="spline"
+                  keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1"
+                  values=" 2 12, 16 12; 2 9, 16 9; 3.5 15, 15 3.5"
+                ></animate>
+                <animate
+                  id="globalnav-anim-menutrigger-bread-bottom-close"
+                  attributeName="points"
+                  keyTimes="0;0.5;1"
+                  dur="0.24s"
+                  begin="indefinite"
+                  fill="freeze"
+                  calcMode="spline"
+                  keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1"
+                  values=" 3.5 15, 15 3.5; 2 9, 16 9; 2 12, 16 12"
+                ></animate>
+              </polyline>
+              <polyline
+                id="globalnav-menutrigger-bread-top"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                points="2 5, 16 5"
+                class="globalnav-menutrigger-bread globalnav-menutrigger-bread-top"
+              >
+                <animate
+                  id="globalnav-anim-menutrigger-bread-top-open"
+                  attributeName="points"
+                  keyTimes="0;0.5;1"
+                  dur="0.24s"
+                  begin="indefinite"
+                  fill="freeze"
+                  calcMode="spline"
+                  keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1"
+                  values=" 2 5, 16 5; 2 9, 16 9; 3.5 3.5, 15 15"
+                ></animate>
+                <animate
+                  id="globalnav-anim-menutrigger-bread-top-close"
+                  attributeName="points"
+                  keyTimes="0;0.5;1"
+                  dur="0.24s"
+                  begin="indefinite"
+                  fill="freeze"
+                  calcMode="spline"
+                  keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1"
+                  values=" 3.5 3.5, 15 15; 2 9, 16 9; 2 5, 16 5"
+                ></animate>
+              </polyline>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="overlay"></div>
+
+    <main>
+      <section
+        class="section d-flex flex-column align-items-center text-center min-vh-75 position-relative"
+      >
+        <div class="section-content">
+          <div class="section-unit-wrapper">
+            <div class="content-text">
+              <h1 class="display-5 fw-semibold mb-0">iPhone</h1>
+              <p class="lead text-secondary">Meet the iPhone 16 family.</p>
+              <div class="d-flex justify-content-center flex-row gap-3">
+                <a href="#" class="button btn btn-primary rounded-pill"
+                  >Learn more</a
+                >
+                <a href="#" class="button btn btn-secondary rounded-pill"
+                  >Shop iPhone</a
+                >
+              </div>
+              <p class="ai-gradient">Built for Apple Intelligence.</p>
+            </div>
+            <div class="image-wrapper">
+              <figure class="iphone-image-unit image-unit"></figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section d-flex flex-column align-items-center text-center min-vh-75 position-relative"
+      >
+        <div class="section-content">
+          <div class="section-unit-wrapper">
+            <div class="content-text bottom-content">
+              <h1 class="display-4 text-gradient">Apple Event</h1>
+              <p class="text-secondary text-white">
+                Watch online on 9/9 at 10 a.m. PT.
+              </p>
+              <button class="button btn btn-calendar">Add to calendar</button>
+            </div>
+            <div class="image-wrapper">
+              <figure class="event-image-unit image-unit"></figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section d-flex flex-column justify-content-center align-items-center text-center min-vh-75 position-relative"
+      >
+        <h2 class="display-4 fw-bold">iPhone 15</h2>
+        <p class="text-secondary">New camera. New design. Newphoria.</p>
+        <div class="d-flex flex-row gap-3">
+          <a href="#" class="button btn btn-primary rounded-pill"
+            >Learn more
+          </a>
+          <a href="#" class="button btn btn-secondary rounded-pill">Buy Now</a>
+        </div>
+        <div class="d-flex justify-content-center gap-3 mt-5 w-75">
+          <div class="device-lineup flex-fill"></div>
+          <div class="device-lineup flex-fill"></div>
+          <div class="device-lineup flex-fill"></div>
+          <div class="device-lineup flex-fill"></div>
+        </div>
+      </section>
+
+      <section class="section my-5">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="watch-block bg-dark text-center p-5 h-100">
+              <p class="text-warning text-uppercase small fw-bold">
+                Apple Watch Ultra
+              </p>
+              <h3 class="h2 fw-semibold">Adventure awaits.</h3>
+              <p class="text-secondary">
+                The most rugged and capable Apple Watch ever.
+              </p>
+              <div class="d-flex flex-row gap-3 justify-content-center mt-3">
+                <a href="#" class="btn btn-primary rounded-pill">Learn more</a>
+                <a href="#" class="btn btn-secondary rounded-pill">Buy Now</a>
+              </div>
+              <div
+                class="bg-secondary mt-4 mx-auto"
+                style="width: 80%; aspect-ratio: 5/3; border-radius: 1rem"
+              ></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="watch-block bg-white text-center text-dark p-5 h-100">
+              <p class="text-danger text-uppercase small fw-bold">
+                Apple Watch Series
+              </p>
+              <h3 class="h2 fw-semibold">Smarter. Brighter. Mightier.</h3>
+              <p class="text-muted">
+                Powerful health features. More brilliant than ever.
+              </p>
+              <div class="d-flex flex-row gap-3 justify-content-center mt-3">
+                <a href="#" class="button btn btn-primary rounded-pill"
+                  >Learn more</a
+                >
+                <a href="#" class="button btn btn-secondary rounded-pill"
+                  >Buy Now</a
+                >
+              </div>
+              <div
+                class="bg-light mt-4 mx-auto"
+                style="width: 80%; aspect-ratio: 5/3; border-radius: 1rem"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="container border-top border-secondary pt-3 mt-5">
+        <p class="small py-3">
+          * Demo layout recreating Apple.com's visual structure. Optimized for
+          UX and conversion. No trademarks or assets are used.
+        </p>
+        <div class="row row-cols-2 row-cols-md-5 g-4 pb-4">
+          <div class="col">
+            <h6 class="text-white">Products</h6>
+            <ul class="list-unstyled small">
+              <li><a href="#">iPhone</a></li>
+              <li><a href="#">iPad</a></li>
+              <li><a href="#">Mac</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h6 class="text-white">Shop</h6>
+            <ul class="list-unstyled small">
+              <li><a href="#">Find a Store</a></li>
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Financing</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h6 class="text-white">Support</h6>
+            <ul class="list-unstyled small">
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Warranty</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h6 class="text-white">Company</h6>
+            <ul class="list-unstyled small">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h6 class="text-white">Follow</h6>
+            <ul class="list-unstyled small">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
